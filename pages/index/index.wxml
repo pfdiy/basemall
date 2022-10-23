@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <navBar></navBar>
+<swiper autoplay circular indicator-dots indicator-active-color="#ffffff" class="sss">
+<swiper-item class="ss1">
+  <image class="ss2" mode="aspectFill" src="https://cdn-we-retail.ym.tencent.com/tsr/home/v2/banner1.png?imageMogr2/thumbnail/702x376/quality/70/strip/format/webp" />
+</swiper-item>
+<swiper-item>
+  <image class="ss2" mode="aspectFill" src="https://cdn-we-retail.ym.tencent.com/tsr/home/v2/banner5.png?imageMogr2/thumbnail/702x376/quality/70/strip/format/webp"  />
+</swiper-item>
+<swiper-item>
+  <image class="ss2" mode="aspectFill" src="https://cdn-we-retail.ym.tencent.com/tsr/home/v2/banner2.png?imageMogr2/thumbnail/702x376/quality/70/strip/format/webp"  />
+</swiper-item>
+</swiper>
+</view>
