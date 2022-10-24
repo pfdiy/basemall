@@ -12,5 +12,6 @@
   "usingComponents": {
     "navBar": "/components/navBar/navBar"
   },
+  "lazyCodeLoading": "requiredComponents",
   "sitemapLocation": "sitemap.json"
 }
