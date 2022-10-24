@@ -5,34 +5,12 @@
     "include": []
   },
   "setting": {
-    "bundle": false,
-    "userConfirmedBundleSwitch": false,
     "urlCheck": true,
-    "scopeDataCheck": false,
-    "coverView": true,
     "es6": true,
     "postcss": true,
-    "compileHotReLoad": false,
-    "lazyloadPlaceholderEnable": false,
-    "preloadBackgroundData": false,
     "minified": true,
+    "newFeature": true,
     "autoAudits": false,
-    "newFeature": false,
-    "uglifyFileName": false,
-    "uploadWithSourceMap": true,
-    "useIsolateContext": true,
-    "nodeModules": false,
-    "enhance": true,
-    "useMultiFrameRuntime": true,
-    "useApiHook": true,
-    "useApiHostProcess": true,
-    "showShadowRootInWxmlPanel": true,
-    "packNpmManually": false,
-    "enableEngineNative": false,
-    "packNpmRelationList": [],
-    "minifyWXSS": true,
-    "showES6CompileOption": false,
-    "minifyWXML": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -40,10 +18,47 @@
     }
   },
   "compileType": "miniprogram",
-  "libVersion": "2.19.4",
-  "appid": "wxc6dce8ceea689c83",
-  "projectname": "miniprogram-92",
-  "condition": {},
+  "libVersion": "2.7.7",
+  "appid": "wxfaa63ab544ea10b8",
+  "projectname": "navigationBar",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/demo8/index",
+          "pathName": "pages/demo8/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/demo1/index",
+          "pathName": "pages/demo1/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/demo9/index",
+          "pathName": "pages/demo9/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/demo10/index",
+          "pathName": "pages/demo10/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/demo5/index",
+          "pathName": "pages/demo5/index",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  },
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2
