@@ -1,3 +1,16 @@
 <view class='main-wrapper'>
-    <navBar background='#fff' searchBar="{{true}}" bindsearch='search' />
+  <navBar background='#fff' searchBar="{{true}}" bindsearch='search' />
+  <swiper indicator-dots autoplay circular indicator-active-color="#ffffff" class="swiper">
+    <swiper-item class="swiper-item">
+      <image class="swiper-image" src="https://cdn-we-retail.ym.tencent.com/tsr/home/v2/banner2.png?imageMogr2/thumbnail/702x376/quality/70/strip/format/webp"></image>
+    </swiper-item>
+    <swiper-item class="swiper-item">
+      <image class="swiper-image" src="https://cdn-we-retail.ym.tencent.com/tsr/home/v2/banner5.png?imageMogr2/thumbnail/702x376/quality/70/strip/format/webp"></image>
+    </swiper-item>
+  </swiper>
+  <view class="NoticeBar">
+    <van-config-provider class="NoticeBar-text">
+    <van-notice-bar  color="#1989fa" background="#ecf9ff" left-icon="volume-o" text="技术是开发它的人的共同灵魂。技术是开发它的人的共同灵魂。技术是开发它的人的共同灵魂。技术是开发它的人的共同灵魂。" />
+  </van-config-provider>
+  </view>
 </view>
