@@ -2,6 +2,10 @@
   display: block;
   flex: none;
 } */
+.main-wrapper{
+  width: 100%;
+  background: #fafafa;
+}
 .swiper {
   width: 100%;
   height: 300rpx;
@@ -34,10 +38,15 @@
 }
 .nav-list{
   width: 100%;
+ display: flex;
+ justify-content: center;
+}
+.nav-item{
+  width: 720rpx;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  position: relative;
+  align-items: center;
 }
 .nav-list-item{
   display: flex;
@@ -61,22 +70,27 @@
   width: 100%;
   height: 100%;
 }
-.goods-card-body{
+.goods-list-wrap{
+  width: 100%;
   display: flex;
-  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.goods-list-card{
+  width: 720rpx;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  padding: 0;
-  background: #fff;
 }
 .goods-card{
-  width: 348rpx;
-  height: 512rpx;
+  width: 350rpx;
+  height: 500rpx;
   border-radius: 20rpx;
   background: #fff;
   box-sizing: border-box;
-  padding: 30rpx 26rpx 30rpx 26rpx;
+  padding:10rpx;
   box-shadow: 0 0 40rpx rgba(0, 0, 0, 0.05);
-  position: relative;
+  margin-bottom: 10px;
 }
 .goods-img{
   display: flex;
@@ -84,7 +98,7 @@
   justify-content: center;
   width: 296rpx;
   height: 296rpx;
-  margin: 0 auto 34rpx;
+  margin: 20rpx;
 }
 .goods-card-title{
   flex-shrink: 0;
@@ -92,17 +106,19 @@
   color: #333;
   font-weight: 400;
   display: -webkit-box;
-  height: 72rpx;
+  height: 33rpx;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   overflow: hidden;
   word-break: break-word;
-  line-height: 36rpx;
+  line-height: 30rpx;
+  padding-left: 20rpx;
+  margin-bottom: 10rpx;
 }
-goods-card-tags{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.goods-card-tags{
+  width: 100%;
+  padding-left: 20rpx;
+  padding-bottom: 10rpx;
 }
 .goods-card-down{
   display: flex;
@@ -114,27 +130,19 @@ goods-card-tags{
 }
 .spec-for-price {
   font-size: 36rpx;
-  white-space: nowrap;
   font-weight: 700;
-  order: 1;
   color: #fa4126;
-  margin: 0;
   display: flex;
   align-items: center;
+  padding-left: 20rpx;
 }
 .symbol{
-  display: inline;
-  color: inherit;
-  font-size: inherit;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
-.inline{
-  display: inline;
-  white-space: nowrap;
-}
+
 .goods-card-ico{
   width: 100%;
   display: flex;
   align-items: center;
-  margin-left: 50%;
+  margin-left: 40%;
 }

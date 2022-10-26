@@ -10,85 +10,204 @@
   </swiper>
   <view class="NoticeBar">
     <van-config-provider class="NoticeBar-text">
-    <van-notice-bar  color="#1989fa" background="#ecf9ff" left-icon="volume-o" text="技术是开发它的人的共同灵魂。技术是开发它的人的共同灵魂。技术是开发它的人的共同灵魂。技术是开发它的人的共同灵魂。" />
-  </van-config-provider>
+      <van-notice-bar color="#1989fa" background="#ecf9ff" left-icon="volume-o" text="技术是开发它的人的共同灵魂。技术是开发它的人的共同灵魂。技术是开发它的人的共同灵魂。技术是开发它的人的共同灵魂。" />
+    </van-config-provider>
   </view>
   <view class="nav-list">
-  <view class="nav-list-item">
-  <image class="nav-list-img" src="https://img.qvhost.com/Uploads/image/goods/2020-11-24/5fbcaca06727e.jpg?imageView2/2/w/146/h/146/ignore-error/1">
-  </image>
-  <view class="nav-list-text">安心蔬菜</view>
-  </view>
-  <view class="nav-list-item">
-  <image class="nav-list-img" src="https://img.qvhost.com/Uploads/image/goods/2020-11-24/5fbcaca06727e.jpg?imageView2/2/w/146/h/146/ignore-error/1">
-  </image>
-  <view class="nav-list-text">安心蔬菜</view>
-  </view>
-  <view class="nav-list-item">
-  <image class="nav-list-img" src="https://img.qvhost.com/Uploads/image/goods/2020-11-24/5fbcaca06727e.jpg?imageView2/2/w/146/h/146/ignore-error/1">
-  </image>
-  <view class="nav-list-text">安心蔬菜</view>
-  </view>
-  <view class="nav-list-item">
-  <image class="nav-list-img" src="https://img.qvhost.com/Uploads/image/goods/2020-11-24/5fbcaca06727e.jpg?imageView2/2/w/146/h/146/ignore-error/1">
-  </image>
-  <view class="nav-list-text">安心蔬菜</view>
-  </view>
-  <view class="nav-list-item">
-  <image class="nav-list-img" src="https://img.qvhost.com/Uploads/image/goods/2020-11-24/5fbcaca06727e.jpg?imageView2/2/w/146/h/146/ignore-error/1">
-  </image>
-  <view class="nav-list-text">安心蔬菜</view>
-  </view>
-  <view class="nav-list-item">
-  <image class="nav-list-img" src="https://img.qvhost.com/Uploads/image/goods/2020-11-24/5fbcaca06727e.jpg?imageView2/2/w/146/h/146/ignore-error/1">
-  </image>
-  <view class="nav-list-text">安心蔬菜</view>
-  </view>
-  <view class="nav-list-item">
-  <image class="nav-list-img" src="https://img.qvhost.com/Uploads/image/goods/2020-11-24/5fbcaca06727e.jpg?imageView2/2/w/146/h/146/ignore-error/1">
-  </image>
-  <view class="nav-list-text">安心蔬菜</view>
-  </view>
-  <view class="nav-list-item">
-  <image class="nav-list-img" src="https://img.qvhost.com/Uploads/image/goods/2020-11-24/5fbcaca06727e.jpg?imageView2/2/w/146/h/146/ignore-error/1">
-  </image>
-  <view class="nav-list-text">安心蔬菜</view>
-  </view>
-  <view class="nav-list-item">
-  <image class="nav-list-img" src="https://img.qvhost.com/Uploads/image/goods/2020-11-24/5fbcaca06727e.jpg?imageView2/2/w/146/h/146/ignore-error/1">
-  </image>
-  <view class="nav-list-text">安心蔬菜</view>
-  </view>
-  <view class="nav-list-item">
-  <view class="img-content">
-  </view>
-  <image class="nav-list-img" src="https://img.qvhost.com/Uploads/image/goods/2020-11-24/5fbcaca06727e.jpg?imageView2/2/w/146/h/146/ignore-error/1">
-  </image>
-  <view class="nav-list-text">安心蔬菜</view>
-  </view>
+    <view class="nav-item">
+      <view class="nav-list-item">
+        <image class="nav-list-img" src="https://img.qvhost.com/Uploads/image/goods/2020-11-24/5fbcaca06727e.jpg?imageView2/2/w/146/h/146/ignore-error/1">
+        </image>
+        <view class="nav-list-text">安心蔬菜</view>
+      </view>
+      <view class="nav-list-item">
+        <image class="nav-list-img" src="https://img.qvhost.com/Uploads/image/goods/2020-11-24/5fbcaca06727e.jpg?imageView2/2/w/146/h/146/ignore-error/1">
+        </image>
+        <view class="nav-list-text">安心蔬菜</view>
+      </view>
+      <view class="nav-list-item">
+        <image class="nav-list-img" src="https://img.qvhost.com/Uploads/image/goods/2020-11-24/5fbcaca06727e.jpg?imageView2/2/w/146/h/146/ignore-error/1">
+        </image>
+        <view class="nav-list-text">安心蔬菜</view>
+      </view>
+      <view class="nav-list-item">
+        <image class="nav-list-img" src="https://img.qvhost.com/Uploads/image/goods/2020-11-24/5fbcaca06727e.jpg?imageView2/2/w/146/h/146/ignore-error/1">
+        </image>
+        <view class="nav-list-text">安心蔬菜</view>
+      </view>
+      <view class="nav-list-item">
+        <image class="nav-list-img" src="https://img.qvhost.com/Uploads/image/goods/2020-11-24/5fbcaca06727e.jpg?imageView2/2/w/146/h/146/ignore-error/1">
+        </image>
+        <view class="nav-list-text">安心蔬菜</view>
+      </view>
+      <view class="nav-list-item">
+        <image class="nav-list-img" src="https://img.qvhost.com/Uploads/image/goods/2020-11-24/5fbcaca06727e.jpg?imageView2/2/w/146/h/146/ignore-error/1">
+        </image>
+        <view class="nav-list-text">安心蔬菜</view>
+      </view>
+      <view class="nav-list-item">
+        <image class="nav-list-img" src="https://img.qvhost.com/Uploads/image/goods/2020-11-24/5fbcaca06727e.jpg?imageView2/2/w/146/h/146/ignore-error/1">
+        </image>
+        <view class="nav-list-text">安心蔬菜</view>
+      </view>
+      <view class="nav-list-item">
+        <image class="nav-list-img" src="https://img.qvhost.com/Uploads/image/goods/2020-11-24/5fbcaca06727e.jpg?imageView2/2/w/146/h/146/ignore-error/1">
+        </image>
+        <view class="nav-list-text">安心蔬菜</view>
+      </view>
+      <view class="nav-list-item">
+        <image class="nav-list-img" src="https://img.qvhost.com/Uploads/image/goods/2020-11-24/5fbcaca06727e.jpg?imageView2/2/w/146/h/146/ignore-error/1">
+        </image>
+        <view class="nav-list-text">安心蔬菜</view>
+      </view>
+      <view class="nav-list-item">
+        <view class="img-content">
+        </view>
+        <image class="nav-list-img" src="https://img.qvhost.com/Uploads/image/goods/2020-11-24/5fbcaca06727e.jpg?imageView2/2/w/146/h/146/ignore-error/1">
+        </image>
+        <view class="nav-list-text">安心蔬菜</view>
+      </view>
+    </view>
   </view>
   <view class="goods-list-wrap">
-    <view class="goods-card">
-    <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
-    <view class="goods-card-tags">
-      <van-tag round plain type="danger">店长推荐</van-tag>
+    <view class="goods-list-card">
+      <view class="goods-card">
+        <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
+        <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
+        <view class="goods-card-tags">
+          <van-tag round plain type="danger">店长推荐</van-tag>
+        </view>
+        <view class="spec-for-price">
+          <view class="symbol">￥</view>
+          <view class="pprice">12.90</view>
+          <view class="goods-card-ico">
+            <van-icon size="24px" name="cart-circle-o" />
+          </view>
+        </view>
+      </view>
+      <view class="goods-card">
+        <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
+        <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
+        <view class="goods-card-tags">
+          <van-tag round plain type="danger">店长推荐</van-tag>
+        </view>
+        <view class="spec-for-price">
+          <view class="symbol">￥</view>
+          <view class="pprice">1299</view>
+          <view class="goods-card-ico">
+            <van-icon size="24px" name="cart-circle-o" />
+          </view>
+        </view>
+      </view>
+      <view class="goods-card">
+        <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
+        <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
+        <view class="goods-card-tags">
+          <van-tag round plain type="danger">店长推荐</van-tag>
+        </view>
+        <view class="spec-for-price">
+          <view class="symbol">￥</view>
+          <view class="pprice">1299</view>
+          <view class="goods-card-ico">
+            <van-icon size="22px" name="cart-circle-o" />
+          </view>
+        </view>
+      </view>
+      <view class="goods-card">
+        <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
+        <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
+        <view class="goods-card-tags">
+          <van-tag round plain type="danger">店长推荐</van-tag>
+        </view>
+        <view class="spec-for-price">
+          <view class="symbol">￥</view>
+          <view class="pprice">1299</view>
+          <view class="goods-card-ico">
+            <van-icon size="22px" name="cart-circle-o" />
+          </view>
+        </view>
+      </view>
+      <view class="goods-card">
+        <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
+        <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
+        <view class="goods-card-tags">
+          <van-tag round plain type="danger">店长推荐</van-tag>
+        </view>
+        <view class="spec-for-price">
+          <view class="symbol">￥</view>
+          <view class="pprice">1299</view>
+          <view class="goods-card-ico">
+            <van-icon size="22px" name="cart-circle-o" />
+          </view>
+        </view>
+      </view>
+      <view class="goods-card">
+        <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
+        <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
+        <view class="goods-card-tags">
+          <van-tag round plain type="danger">店长推荐</van-tag>
+        </view>
+        <view class="spec-for-price">
+          <view class="symbol">￥</view>
+          <view class="pprice">1299</view>
+          <view class="goods-card-ico">
+            <van-icon size="22px" name="cart-circle-o" />
+          </view>
+        </view>
+      </view>
+      <view class="goods-card">
+        <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
+        <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
+        <view class="goods-card-tags">
+          <van-tag round plain type="danger">店长推荐</van-tag>
+        </view>
+        <view class="spec-for-price">
+          <view class="symbol">￥</view>
+          <view class="pprice">1299</view>
+          <view class="goods-card-ico">
+            <van-icon size="22px" name="cart-circle-o" />
+          </view>
+        </view>
+      </view>
+      <view class="goods-card">
+        <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
+        <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
+        <view class="goods-card-tags">
+          <van-tag round plain type="danger">店长推荐</van-tag>
+        </view>
+        <view class="spec-for-price">
+          <view class="symbol">￥</view>
+          <view class="pprice">1299</view>
+          <view class="goods-card-ico">
+            <van-icon size="22px" name="cart-circle-o" />
+          </view>
+        </view>
+      </view>
+      <view class="goods-card">
+        <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
+        <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
+        <view class="goods-card-tags">
+          <van-tag round plain type="danger">店长推荐</van-tag>
+        </view>
+        <view class="spec-for-price">
+          <view class="symbol">￥</view>
+          <view class="pprice">1299</view>
+          <view class="goods-card-ico">
+            <van-icon size="22px" name="cart-circle-o" />
+          </view>
+        </view>
+      </view>
     </view>
-    <view class="goods-card-title">倍舒特 240mm 日用型</view>
-    <view class="spec-for-price">
-    <view class="symbol">￥</view>
-    <view class="pprice">1299</view>
-    <view class="goods-card-ico">
-      <van-icon name="cart-circle-o" />
-    </view>
-    </view>
-    </view>
+  </view>
+  <view style="height: 100px;">
+    <van-divider contentPosition="center">别拉了，到底了~</van-divider>
   </view>
   <view class="tabbar">
     <van-tabbar active="{{ active }}" bind:change="onChange">
-  <van-tabbar-item name="home" icon="home-o">首页</van-tabbar-item>
-  <van-tabbar-item name="search" icon="apps-o">分类</van-tabbar-item>
-  <van-tabbar-item name="friends" icon="cart-o">购物车</van-tabbar-item>
-  <van-tabbar-item name="setting" icon="user-o">我的</van-tabbar-item>
-</van-tabbar>
+      <van-tabbar-item name="home" icon="home-o">首页</van-tabbar-item>
+      <van-tabbar-item name="search" icon="apps-o">分类</van-tabbar-item>
+      <van-tabbar-item name="friends" icon="cart-o">购物车</van-tabbar-item>
+      <van-tabbar-item name="setting" icon="user-o">我的</van-tabbar-item>
+    </van-tabbar>
   </view>
 </view>
