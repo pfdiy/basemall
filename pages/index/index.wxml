@@ -8,11 +8,6 @@
       <image class="swiper-image" src="https://cdn-we-retail.ym.tencent.com/tsr/home/v2/banner5.png?imageMogr2/thumbnail/702x376/quality/70/strip/format/webp"></image>
     </swiper-item>
   </swiper>
-  <view class="NoticeBar">
-    <van-config-provider class="NoticeBar-text">
-      <van-notice-bar color="#1989fa" background="#ecf9ff" left-icon="volume-o" text="技术是开发它的人的共同灵魂。技术是开发它的人的共同灵魂。技术是开发它的人的共同灵魂。技术是开发它的人的共同灵魂。" />
-    </van-config-provider>
-  </view>
   <view class="nav-list">
     <view class="nav-item">
       <view class="nav-list-item">
@@ -69,135 +64,151 @@
       </view>
     </view>
   </view>
+  <view class="NoticeBar">
+    <van-config-provider class="NoticeBar-text">
+      <van-notice-bar left-icon="volume-o" text="技术是开发它的人的共同灵魂。技术是开发它的人的共同灵魂。技术是开发它的人的共同灵魂。技术是开发它的人的共同灵魂。" />
+    </van-config-provider>
+  </view>
   <view class="goods-list-wrap">
-    <view class="goods-list-card">
-      <view class="goods-card">
-        <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
-        <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
-        <view class="goods-card-tags">
-          <van-tag round plain type="danger">店长推荐</van-tag>
-        </view>
-        <view class="spec-for-price">
-          <view class="symbol">￥</view>
-          <view class="pprice">12.90</view>
-          <view class="goods-card-ico">
-            <van-icon size="24px" name="cart-circle-o" />
+    <view class="category-title">
+      <view class="title">
+      安心蔬菜
+      <view class="line"></view>
+      </view>
+    </view>
+    <view class="goods-list">
+      <view class="goods-list-card">
+        <view class="goods-card">
+          <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/muy-3a.png?imageMogr2/thumbnail/340x376/quality/70/strip/format/webp"></image>
+          <view class="goods-card-title">
+					带帽午休毯虎年款多功能加厚加大加绒简约多功能午休毯连帽披肩
+				</view>
+          <view class="goods-card-tags">
+            <van-tag round plain type="danger">店长推荐</van-tag>
+          </view>
+          <view class="spec-for-price">
+            <view class="symbol">￥</view>
+            <view class="pprice">12.90</view>
+            <view class="goods-card-ico">
+              <van-icon size="24px" name="cart-circle-o" />
+            </view>
           </view>
         </view>
-      </view>
-      <view class="goods-card">
-        <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
-        <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
-        <view class="goods-card-tags">
-          <van-tag round plain type="danger">店长推荐</van-tag>
-        </view>
-        <view class="spec-for-price">
-          <view class="symbol">￥</view>
-          <view class="pprice">1299</view>
-          <view class="goods-card-ico">
-            <van-icon size="24px" name="cart-circle-o" />
+        <view class="goods-card">
+          <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
+          <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
+          <view class="goods-card-tags">
+            <van-tag round plain type="danger">店长推荐</van-tag>
+          </view>
+          <view class="spec-for-price">
+            <view class="symbol">￥</view>
+            <view class="pprice">1299</view>
+            <view class="goods-card-ico">
+              <van-icon size="24px" name="cart-circle-o" />
+            </view>
           </view>
         </view>
-      </view>
-      <view class="goods-card">
-        <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
-        <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
-        <view class="goods-card-tags">
-          <van-tag round plain type="danger">店长推荐</van-tag>
-        </view>
-        <view class="spec-for-price">
-          <view class="symbol">￥</view>
-          <view class="pprice">1299</view>
-          <view class="goods-card-ico">
-            <van-icon size="22px" name="cart-circle-o" />
+        <view class="goods-card">
+          <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/gh-1a.png?imageMogr2/thumbnail/340x376/quality/70/strip/format/webp"></image>
+          <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
+          <view class="goods-card-tags">
+            <van-tag round plain type="danger">店长推荐</van-tag>
+          </view>
+          <view class="spec-for-price">
+            <view class="symbol">￥</view>
+            <view class="pprice">1299</view>
+            <view class="goods-card-ico">
+              <van-icon size="22px" name="cart-circle-o" />
+            </view>
           </view>
         </view>
-      </view>
-      <view class="goods-card">
-        <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
-        <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
-        <view class="goods-card-tags">
-          <van-tag round plain type="danger">店长推荐</van-tag>
-        </view>
-        <view class="spec-for-price">
-          <view class="symbol">￥</view>
-          <view class="pprice">1299</view>
-          <view class="goods-card-ico">
-            <van-icon size="22px" name="cart-circle-o" />
+        <view class="goods-card">
+          <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-08b.png?imageMogr2/thumbnail/340x376/quality/70/strip/format/webp"></image>
+          <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
+          <view class="goods-card-tags">
+            <van-tag round plain type="danger">店长推荐</van-tag>
+          </view>
+          <view class="spec-for-price">
+            <view class="symbol">￥</view>
+            <view class="pprice">1299</view>
+            <view class="goods-card-ico">
+              <van-icon size="22px" name="cart-circle-o" />
+            </view>
           </view>
         </view>
-      </view>
-      <view class="goods-card">
-        <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
-        <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
-        <view class="goods-card-tags">
-          <van-tag round plain type="danger">店长推荐</van-tag>
-        </view>
-        <view class="spec-for-price">
-          <view class="symbol">￥</view>
-          <view class="pprice">1299</view>
-          <view class="goods-card-ico">
-            <van-icon size="22px" name="cart-circle-o" />
+        <view class="goods-card">
+          <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
+          <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
+          <view class="goods-card-tags">
+            <van-tag round plain type="danger">店长推荐</van-tag>
+          </view>
+          <view class="spec-for-price">
+            <view class="symbol">￥</view>
+            <view class="pprice">1299</view>
+            <view class="goods-card-ico">
+              <van-icon size="22px" name="cart-circle-o" />
+            </view>
           </view>
         </view>
-      </view>
-      <view class="goods-card">
-        <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
-        <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
-        <view class="goods-card-tags">
-          <van-tag round plain type="danger">店长推荐</van-tag>
-        </view>
-        <view class="spec-for-price">
-          <view class="symbol">￥</view>
-          <view class="pprice">1299</view>
-          <view class="goods-card-ico">
-            <van-icon size="22px" name="cart-circle-o" />
+        <view class="goods-card">
+          <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/dz-3a.png?imageMogr2/thumbnail/340x376/quality/70/strip/format/webp"></image>
+          <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
+          <view class="goods-card-tags">
+            <van-tag round plain type="danger">店长推荐</van-tag>
+          </view>
+          <view class="spec-for-price">
+            <view class="symbol">￥</view>
+            <view class="pprice">1299</view>
+            <view class="goods-card-ico">
+              <van-icon size="22px" name="cart-circle-o" />
+            </view>
           </view>
         </view>
-      </view>
-      <view class="goods-card">
-        <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
-        <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
-        <view class="goods-card-tags">
-          <van-tag round plain type="danger">店长推荐</van-tag>
-        </view>
-        <view class="spec-for-price">
-          <view class="symbol">￥</view>
-          <view class="pprice">1299</view>
-          <view class="goods-card-ico">
-            <van-icon size="22px" name="cart-circle-o" />
+        <view class="goods-card">
+          <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
+          <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
+          <view class="goods-card-tags">
+            <van-tag round plain type="danger">店长推荐</van-tag>
+          </view>
+          <view class="spec-for-price">
+            <view class="symbol">￥</view>
+            <view class="pprice">1299</view>
+            <view class="goods-card-ico">
+              <van-icon size="22px" name="cart-circle-o" />
+            </view>
           </view>
         </view>
-      </view>
-      <view class="goods-card">
-        <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
-        <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
-        <view class="goods-card-tags">
-          <van-tag round plain type="danger">店长推荐</van-tag>
-        </view>
-        <view class="spec-for-price">
-          <view class="symbol">￥</view>
-          <view class="pprice">1299</view>
-          <view class="goods-card-ico">
-            <van-icon size="22px" name="cart-circle-o" />
+        <view class="goods-card">
+          <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
+          <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
+          <view class="goods-card-tags">
+            <van-tag round plain type="danger">店长推荐</van-tag>
+          </view>
+          <view class="spec-for-price">
+            <view class="symbol">￥</view>
+            <view class="pprice">1299</view>
+            <view class="goods-card-ico">
+              <van-icon size="22px" name="cart-circle-o" />
+            </view>
           </view>
         </view>
-      </view>
-      <view class="goods-card">
-        <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
-        <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
-        <view class="goods-card-tags">
-          <van-tag round plain type="danger">店长推荐</van-tag>
-        </view>
-        <view class="spec-for-price">
-          <view class="symbol">￥</view>
-          <view class="pprice">1299</view>
-          <view class="goods-card-ico">
-            <van-icon size="22px" name="cart-circle-o" />
+        <view class="goods-card">
+          <image class="goods-img" src="https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png?imageMogr2/thumbnail/290x320/quality/70/strip/format/webp"></image>
+          <view class="goods-card-title">倍舒特 240mm 日用型123sdfsdf </view>
+          <view class="goods-card-tags">
+            <van-tag round plain type="danger">店长推荐</van-tag>
+          </view>
+          <view class="spec-for-price">
+            <view class="symbol">￥</view>
+            <view class="pprice">1299</view>
+            <view class="goods-card-ico">
+              <van-icon size="22px" name="cart-circle-o" />
+            </view>
           </view>
         </view>
       </view>
     </view>
+
   </view>
   <view style="height: 100px;">
     <van-divider contentPosition="center">别拉了，到底了~</van-divider>
