@@ -1,13 +1,14 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/goods/details/index",
+    "pages/goods/category/index",
+    "pages/goods/list/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "自定义导航栏",
     "navigationBarTextStyle": "black",
-    "navigationStyle": "custom",
     "enablePullDownRefresh": true
   },
   "usingComponents": {

@@ -24,42 +24,7 @@
   "projectname": "navigationBar",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
-  "condition": {
-    "miniprogram": {
-      "list": [
-        {
-          "name": "pages/demo8/index",
-          "pathName": "pages/demo8/index",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/demo1/index",
-          "pathName": "pages/demo1/index",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/demo9/index",
-          "pathName": "pages/demo9/index",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/demo10/index",
-          "pathName": "pages/demo10/index",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/demo5/index",
-          "pathName": "pages/demo5/index",
-          "query": "",
-          "scene": null
-        }
-      ]
-    }
-  },
+  "condition": {},
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2

@@ -1,6 +1,6 @@
-/* page {
-  background-color: #e5e5e5;
-} */
+page {
+  background-color: #f8f8f8;
+}
 .main {
   /* prettier-ignore */
   height: 10%;
